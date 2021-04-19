@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Assignment.ReqResTesting.CreateUserTest"/>
+      <class name="Assignment.ReqResTesting.DeleteUserTest"/>
+      <class name="Assignment.ReqResTesting.GetListOfUsersTest"/>
+      <class name="Assignment.ReqResTesting.LoginTest"/>
+      <class name="Assignment.ReqResTesting.RegisterTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

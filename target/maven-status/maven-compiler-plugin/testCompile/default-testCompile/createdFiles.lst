@@ -1,0 +1,9 @@
+Assignment\ReqResTesting\CreateUserTest.class
+Assignment\ReqResTesting\RegisterTest.class
+resources\GetCurrentDate.class
+resources\TestDataBuild.class
+Assignment\ReqResTesting\LoginTest.class
+resources\Utils.class
+resources\ApiResources.class
+Assignment\ReqResTesting\GetListOfUsersTest.class
+Assignment\ReqResTesting\DeleteUserTest.class

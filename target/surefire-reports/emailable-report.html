@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">14</td><td class="num">0</td><td class="num">0</td><td class="num attn">11</td><td class="num">92,516</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">Assignment.ReqResTesting.CreateUserTest</td><td><a href="#m0">checkUserCreation</a></td><td rowspan="1">1618809487851</td><td rowspan="1">7040</td></tr><tr class="failedeven"><td><a href="#m1">checkUserCreationWithWrongBody</a></td><td rowspan="4">1618809515941</td><td rowspan="4">2780</td></tr><tr class="failedeven"><td><a href="#m2">checkUserCreationWithWrongBody</a></td></tr><tr class="failedeven"><td><a href="#m3">checkUserCreationWithWrongBody</a></td></tr><tr class="failedeven"><td><a href="#m4">checkUserCreationWithWrongBody</a></td></tr><tr class="failedodd"><td rowspan="1">Assignment.ReqResTesting.DeleteUserTest</td><td><a href="#m5">deleteUserWithWrongId</a></td><td rowspan="1">1618809521566</td><td rowspan="1">2785</td></tr><tr class="failedeven"><td rowspan="2">Assignment.ReqResTesting.GetListOfUsersTest</td><td><a href="#m6">checkListOfusersWithoutQueryParam</a></td><td rowspan="1">1618809531626</td><td rowspan="1">5745</td></tr><tr class="failedeven"><td><a href="#m7">checkListOfuserswithInvalidPage</a></td><td rowspan="1">1618809537380</td><td rowspan="1">2656</td></tr><tr class="failedodd"><td rowspan="2">Assignment.ReqResTesting.LoginTest</td><td><a href="#m8">loginCheckWithWrongHttpMethod</a></td><td rowspan="1">1618809554379</td><td rowspan="1">2457</td></tr><tr class="failedodd"><td><a href="#m9">loginCheckWithWrongPassword</a></td><td rowspan="1">1618809556846</td><td rowspan="1">3724</td></tr><tr class="failedeven"><td rowspan="1">Assignment.ReqResTesting.RegisterTest</td><td><a href="#m10">loginCheckWithWrongHttpMethod</a></td><td rowspan="1">1618809560581</td><td rowspan="1">2275</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">Assignment.ReqResTesting.CreateUserTest</td><td><a href="#m11">checkUserCreation</a></td><td rowspan="3">1618809502826</td><td rowspan="3">3960</td></tr><tr class="passedeven"><td><a href="#m12">checkUserCreation</a></td></tr><tr class="passedeven"><td><a href="#m13">checkUserCreation</a></td></tr><tr class="passedodd"><td rowspan="1">Assignment.ReqResTesting.DeleteUserTest</td><td><a href="#m14">deleteUser</a></td><td rowspan="1">1618809518746</td><td rowspan="1">2817</td></tr><tr class="passedeven"><td rowspan="1">Assignment.ReqResTesting.GetListOfUsersTest</td><td><a href="#m15">checkListOfusers</a></td><td rowspan="1">1618809524366</td><td rowspan="1">7255</td></tr><tr class="passedodd"><td rowspan="5">Assignment.ReqResTesting.LoginTest</td><td><a href="#m16">loginCheckForRegisteredUser</a></td><td rowspan="4">1618809542905</td><td rowspan="4">2970</td></tr><tr class="passedodd"><td><a href="#m17">loginCheckForRegisteredUser</a></td></tr><tr class="passedodd"><td><a href="#m18">loginCheckForRegisteredUser</a></td></tr><tr class="passedodd"><td><a href="#m19">loginCheckForRegisteredUser</a></td></tr><tr class="passedodd"><td><a href="#m20">loginCheckForUnRegisteredUser</a></td><td rowspan="1">1618809551535</td><td rowspan="1">2844</td></tr><tr class="passedeven"><td rowspan="4">Assignment.ReqResTesting.RegisterTest</td><td><a href="#m21">m1</a></td><td rowspan="4">1618809565701</td><td rowspan="4">2780</td></tr><tr class="passedeven"><td><a href="#m22">m1</a></td></tr><tr class="passedeven"><td><a href="#m23">m1</a></td></tr><tr class="passedeven"><td><a href="#m24">m1</a></td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">Assignment.ReqResTesting.CreateUserTest#checkUserCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreation(CreateUserTest.java:44)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Assignment.ReqResTesting.CreateUserTest#checkUserCreationWithWrongBody</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>dummyuser</td><td>dummyjob</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody(CreateUserTest.java:70)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Assignment.ReqResTesting.CreateUserTest#checkUserCreationWithWrongBody</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td>dummyjob</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody(CreateUserTest.java:70)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Assignment.ReqResTesting.CreateUserTest#checkUserCreationWithWrongBody</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>dummyuser</td><td></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody(CreateUserTest.java:70)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Assignment.ReqResTesting.CreateUserTest#checkUserCreationWithWrongBody</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody(CreateUserTest.java:70)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Assignment.ReqResTesting.DeleteUserTest#deleteUserWithWrongId</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [204]
+	at Assignment.ReqResTesting.DeleteUserTest.deleteUserWithWrongId(DeleteUserTest.java:49)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Assignment.ReqResTesting.GetListOfUsersTest#checkListOfusersWithoutQueryParam</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [12] but found [6]
+	at Assignment.ReqResTesting.GetListOfUsersTest.checkListOfusersWithoutQueryParam(GetListOfUsersTest.java:87)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Assignment.ReqResTesting.GetListOfUsersTest#checkListOfuserswithInvalidPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [400] but found [200]
+	at Assignment.ReqResTesting.GetListOfUsersTest.checkListOfuserswithInvalidPage(GetListOfUsersTest.java:67)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Assignment.ReqResTesting.LoginTest#loginCheckWithWrongHttpMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [405] but found [200]
+	at Assignment.ReqResTesting.LoginTest.loginCheckWithWrongHttpMethod(LoginTest.java:86)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Assignment.ReqResTesting.LoginTest#loginCheckWithWrongPassword</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [401] but found [200]
+	at Assignment.ReqResTesting.LoginTest.loginCheckWithWrongPassword(LoginTest.java:73)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">Assignment.ReqResTesting.RegisterTest#loginCheckWithWrongHttpMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [405] but found [200]
+	at Assignment.ReqResTesting.RegisterTest.loginCheckWithWrongHttpMethod(RegisterTest.java:69)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">Assignment.ReqResTesting.CreateUserTest#checkUserCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>dummyuser</td><td>dummyjob</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">Assignment.ReqResTesting.CreateUserTest#checkUserCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td>dummyjob</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">Assignment.ReqResTesting.CreateUserTest#checkUserCreation</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>dummyuser</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">Assignment.ReqResTesting.DeleteUserTest#deleteUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">Assignment.ReqResTesting.GetListOfUsersTest#checkListOfusers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">Assignment.ReqResTesting.LoginTest#loginCheckForRegisteredUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td>pistol</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">Assignment.ReqResTesting.LoginTest#loginCheckForRegisteredUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">Assignment.ReqResTesting.LoginTest#loginCheckForRegisteredUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>eve.holt@reqres.in</td><td>pistol</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">Assignment.ReqResTesting.LoginTest#loginCheckForRegisteredUser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>eve.holt@reqres.in</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">Assignment.ReqResTesting.LoginTest#loginCheckForUnRegisteredUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">Assignment.ReqResTesting.RegisterTest#m1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td>pistol</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">Assignment.ReqResTesting.RegisterTest#m1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>eve.holt@reqres.in</td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">Assignment.ReqResTesting.RegisterTest#m1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>eve.holt@reqres.in</td><td>pistol</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">Assignment.ReqResTesting.RegisterTest#m1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td></td><td></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

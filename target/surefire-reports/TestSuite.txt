@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 11, Errors: 0, Skipped: 0, Time elapsed: 93.981 s <<< FAILURE! - in TestSuite
+Assignment.ReqResTesting.CreateUserTest.checkUserCreation[, ](1)  Time elapsed: 7.266 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreation(CreateUserTest.java:44)
+
+Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody[, ](1)  Time elapsed: 3.271 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody(CreateUserTest.java:70)
+
+Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody[, dummyjob](2)  Time elapsed: 2.911 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody(CreateUserTest.java:70)
+
+Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody[dummyuser, ](3)  Time elapsed: 2.795 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody(CreateUserTest.java:70)
+
+Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody[dummyuser, dummyjob](4)  Time elapsed: 2.789 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [201]
+	at Assignment.ReqResTesting.CreateUserTest.checkUserCreationWithWrongBody(CreateUserTest.java:70)
+
+Assignment.ReqResTesting.DeleteUserTest.deleteUserWithWrongId  Time elapsed: 2.695 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [204]
+	at Assignment.ReqResTesting.DeleteUserTest.deleteUserWithWrongId(DeleteUserTest.java:49)
+
+Assignment.ReqResTesting.GetListOfUsersTest.checkListOfusersWithoutQueryParam  Time elapsed: 5.747 s  <<< FAILURE!
+java.lang.AssertionError: expected [12] but found [6]
+	at Assignment.ReqResTesting.GetListOfUsersTest.checkListOfusersWithoutQueryParam(GetListOfUsersTest.java:87)
+
+Assignment.ReqResTesting.GetListOfUsersTest.checkListOfuserswithInvalidPage  Time elapsed: 2.914 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [200]
+	at Assignment.ReqResTesting.GetListOfUsersTest.checkListOfuserswithInvalidPage(GetListOfUsersTest.java:67)
+
+Assignment.ReqResTesting.LoginTest.loginCheckWithWrongHttpMethod  Time elapsed: 2.455 s  <<< FAILURE!
+java.lang.AssertionError: expected [405] but found [200]
+	at Assignment.ReqResTesting.LoginTest.loginCheckWithWrongHttpMethod(LoginTest.java:86)
+
+Assignment.ReqResTesting.LoginTest.loginCheckWithWrongPassword  Time elapsed: 3.719 s  <<< FAILURE!
+java.lang.AssertionError: expected [401] but found [200]
+	at Assignment.ReqResTesting.LoginTest.loginCheckWithWrongPassword(LoginTest.java:73)
+
+Assignment.ReqResTesting.RegisterTest.loginCheckWithWrongHttpMethod  Time elapsed: 2.309 s  <<< FAILURE!
+java.lang.AssertionError: expected [405] but found [200]
+	at Assignment.ReqResTesting.RegisterTest.loginCheckWithWrongHttpMethod(RegisterTest.java:69)
+
